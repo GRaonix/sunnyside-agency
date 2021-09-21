@@ -1,0 +1,81 @@
+body {
+  background-color: #ebebeb;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(./socialico.ttf);
+}
+  
+p.icons {
+    font-family: myFirstFont;
+    color: #7d7d7d;
+    font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 20%; 
+}
+
+img.rounded {
+  max-width: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+    background-color: white;
+    color: #7d7d7d;
+    margin: auto;
+    margin-bottom: 25px;
+    width:50%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 2px 2px #dbdbdb;
+    font-size: 12px;
+}
+
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7d7d7d;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+p, h1, h2, h3, ul, a {
+font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: #dd5555;
+    text-align: center;
+}
+h2 {
+    color: #7d7d7d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  h3 {
+    font-size: 15px;
+  }
+.button {
+  background-color: #dd5555;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  margin-left: 33%;
+  margin-right: 33%;
+}
