@@ -1,11 +1,14 @@
 body {
+  width: 1440px;
   background-color: #ebebeb;
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(./socialico.ttf);
-}
-  
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+// font-family: 'Barlow', sans-serif;
+// font-family: 'Fraunces', serif;
+// 600 for barlow 700/900 for fraunces
+// font-weight:600;
+
 p.icons {
     font-family: myFirstFont;
     color: #7d7d7d;
@@ -46,7 +49,11 @@ table {
   color: #7d7d7d;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+
 p, h1, h2, h3, ul, a {
 font-family: 'Open Sans', sans-serif;
 }
