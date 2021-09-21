@@ -66,25 +66,25 @@ li a:hover {
     "Footer Footer";
 }
 //grid
-.Header { grid-area: Header; }
+.Header { grid-area: Header;background-image: url("./img/image-header.jpg"); }
 
-.Left1 { grid-area: Left1; }
+.Left1 { grid-area: Left1;background-color: #fff;"); }
 
-.Right1 { grid-area: Right1; }
+.Right1 { grid-area: Right1;background-image: url("./img/image-transform.jpg"); }
 
-.Left2 { grid-area: Left2; }
+.Left2 { grid-area: Left2;background-image: url("./img/image-stand-out.jpg"); }
 
-.Right2 { grid-area: Right2; }
+.Right2 { grid-area: Right2;background-color: #fff;"); }
 
-.Left3 { grid-area: Left3; }
+.Left3 { grid-area: Left3;background-image: url("./img/image-graphic-design.jpg"); }
 
-.Right3 { grid-area: Right3; }
+.Right3 { grid-area: Right3;background-image: url("./img/image-photography.jpg"); }
 
-.Clients { grid-area: Clients; }
+.Clients { grid-area: Clients;background-color: #fff;"); }
 
-.Bottom_images { grid-area: Bottom_images; }
+.Bottom_images { grid-area: Bottom_images;background-image: url("./img/image-header.jpg"); }
 
-.Footer { grid-area: Footer; }
+.Footer { grid-area: Footer;background-color: #fff;"); }
 // end_grid
 
 p.icons {
