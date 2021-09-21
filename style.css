@@ -21,7 +21,7 @@ font-family: 'Barlow', sans-serif;
 font-weight:600; 
 font-size: 18px;
   
-  position: absolute;
+//  position: absolute;
   right: 0px;
   width: 300px;
   color: #fff;
@@ -43,9 +43,11 @@ li a {
   display: block;
   padding: 8px;
   //background-color: #dddddd;
+  
 }
 li a:hover {
-  background-color: #111;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 p.icons {
