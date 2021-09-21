@@ -9,6 +9,12 @@ body {
 // 600 for barlow 700/900 for fraunces
 // font-weight:600;
 
+
+p, h1, h2, h3, ul, a {
+font-family: 'Barlow', sans-serif;
+font-weight:600; 
+}
+
 p.icons {
     font-family: myFirstFont;
     color: #7d7d7d;
@@ -49,14 +55,6 @@ table {
   color: #7d7d7d;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
-
-font-family: 'Barlow', sans-serif;
-font-family: 'Fraunces', serif;
-
-p, h1, h2, h3, ul, a {
-font-family: 'Open Sans', sans-serif;
-}
 h1 {
     color: #dd5555;
     text-align: center;
