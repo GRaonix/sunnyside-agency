@@ -50,6 +50,43 @@ li a:hover {
   border-radius: 2%;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header"
+    "Left1 Right1"
+    "Left2 Right2"
+    "Left3 Right3"
+    "Clients Clients"
+    "Bottom_images Bottom_images"
+    "Footer Footer";
+}
+//grid
+.Header { grid-area: Header; }
+
+.Left1 { grid-area: Left1; }
+
+.Right1 { grid-area: Right1; }
+
+.Left2 { grid-area: Left2; }
+
+.Right2 { grid-area: Right2; }
+
+.Left3 { grid-area: Left3; }
+
+.Right3 { grid-area: Right3; }
+
+.Clients { grid-area: Clients; }
+
+.Bottom_images { grid-area: Bottom_images; }
+
+.Footer { grid-area: Footer; }
+// end_grid
+
 p.icons {
     font-family: myFirstFont;
     color: #7d7d7d;
