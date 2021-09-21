@@ -8,7 +8,9 @@ body {
 // font-family: 'Fraunces', serif;
 // 600 for barlow 700/900 for fraunces
 // font-weight:600;
-
+header {
+background-image: url("./img/image-header.jpg");
+}
 
 p, h1, h2, h3, ul, a {
 font-family: 'Barlow', sans-serif;
