@@ -14,7 +14,7 @@ html, body{
 .hero{
     height: 100vh;
     padding: 2.5rem;
-    background-image: url(images/desktop/image-header.jpg);
+    background-image: url(img/image-header.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
