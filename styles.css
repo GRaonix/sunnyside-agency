@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap");
+body {
+  font-size: 18px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background: #3ebfff url(./resources/images/photos/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 78vh;
+}
+
+header a {
+  text-decoration: none;
+}
+header nav {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+header li {
+  padding: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+}
+header li:hover {
+  padding: 0px;
+  background-color: #3ebfff;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #57ffff;
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+}
+header li #hover-s {
+  background-color: none;
+  color: rgba(164, 255, 164, 0.589);
+}
+header img {
+  padding: 30px;
+}
+header img:nth-child(3) {
+  display: block;
+  margin: 0 auto;
+}
+header h1 {
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  margin: 70px;
+  letter-spacing: 10px;
+}
+
+.global-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.global-container .card {
+  height: 600px;
+  padding-bottom: 42px;
+}
+.global-container .card h2 {
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  color: #4e5e70;
+}
+.global-container .card p {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 2.5rem 0 3.5rem 0;
+  line-height: 3rem;
+  color: #818498;
+}
+.global-container .card button {
+  margin-left: 225px;
+  background-color: #616161;
+  color: white;
+  border-radius: 8px;
+}
+.global-container .card #bt-n {
+  color: white;
+}
+.global-container .card #bt-n:hover {
+  background-color: #3ebfff;
+}
+.global-container .card #b-tn {
+  color: white;
+}
+.global-container .card #b-tn:hover {
+  background-color: #3ebfff;
+}
+.global-container .card a {
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f0f0f0;
+  padding: 0 0.7rem;
+}
+.global-container .card .H2 {
+  margin-top: 350px;
+}
+.global-container #card-2 {
+  background-image: url(./resources/images/photos/image-transform.jpg);
+}
+.global-container #card-3 {
+  background-image: url(./resources/images/photos//image-stand-out.jpg);
+}
+.global-container #card-5 {
+  background-image: url(./resources/images/photos/image-graphic-design.jpg);
+}
+.global-container #card-5:hover {
+  opacity: 82%;
+}
+.global-container #card-6 {
+  background-image: url(./resources/images/photos/image-photography.jpg);
+}
+
+h2:nth-child(2) {
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin: 60px;
+  color: #a7abae;
+}
+
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  padding: 15px;
+}
+.people-container img {
+  width: 22%;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.people-container p {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 3.4rem 0 3.1rem 0;
+  line-height: 3.2rem;
+  color: #818498;
+}
+.people-container h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #2f3d4db9;
+  text-align: center;
+}
+
+.pics-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.pics-box .pics {
+  height: 400px;
+}
+.pics-box #pic-1 {
+  background-image: url(./resources/images/photos/image-gallery-milkbottles.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-box #pic-2 {
+  background-image: url(./resources/images/photos/image-gallery-orange.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-box #pic-3 {
+  background-image: url(./resources/images/photos/image-gallery-cone.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-box #pic-4 {
+  background-image: url(./resources/images/photos/image-gallery-sugarcubes.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-box:hover {
+  opacity: 55%;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #6aafa0d0;
+}
+
+#logo {
+  width: 10rem;
+  margin-top: 30px;
+  margin-left: 45%;
+}
+#logo:hover {
+  color: honeydew;
+}
+
+.ul-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin: 3.2rem 0;
+  list-style-type: none;
+}
+.ul-list li {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #458c7e;
+}
+.ul-list li:hover {
+  color: rgba(255, 255, 255, 0.555);
+  cursor: pointer;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  padding-bottom: 60px;
+}
+.social-link:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
